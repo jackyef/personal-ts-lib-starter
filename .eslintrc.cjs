@@ -6,9 +6,6 @@ module.exports = {
     jsx: true,
     useJSXTextNode: true,
   },
-  env: {
-    'jest/globals': true,
-  },
   extends: [
     'plugin:@typescript-eslint/recommended',
     'plugin:import/recommended',
